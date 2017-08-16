@@ -1,0 +1,92 @@
+<meta charset="UTF-8">
+<meta name="author" content="Alex Augusto - 1700072">
+<meta name="author" content="Cinthia Queiroz - 1700693">
+<meta name="author" content="Samuel da Silva Oliveira - 1601019">
+<meta name="author" content="Michael da Silva de Souza - 1700381">
+
+<p><strong>1) Da lista de tecnologias abaixo, aponte qual é executada no cliente e qual é executada no servidor </strong></p>
+<table border="1">
+	<tr><th>Tecnologia</th><th>Cliente</th><th>Servidor</th></tr>
+	<tr><td>Apache</td><td>&nbsp;</td><td>x</td></tr>
+	<tr><td>JavaScript</td><td>x</td><td>&nbsp;</td></tr>
+	<tr><td>Tomcat</td><td>&nbsp;</td><td>x</td></tr>
+	<tr><td>Java</td><td>&nbsp;</td><td>x</td></tr>
+	<tr><td>HTML</td><td>x</td><td>&nbsp;</td></tr>
+	<tr><td>PHP</td><td>&nbsp;</td><td>x</td></tr>
+	<tr><td>Apache</td><td>&nbsp;</td><td>x</td></tr>
+	<tr><td>MySQL</td><td>&nbsp;</td><td>x</td></tr>
+	<tr><td>XHTML</td><td>x</td><td>&nbsp;</td></tr>
+	<tr><td>MongoDB</td><td>&nbsp;</td><td>x</td></tr>
+	<tr><td>CSS</td><td>x</td><td>&nbsp;</td></tr>
+</table>
+
+<p><strong>2) Aponte as regiões da URL <code>http://www.impacta.com.br/eventos/default.php</code></strong></p>
+
+<p>RESPOSTA:</p>
+<p>http - Esquema, informa qual protocolo de comunicação será usado na requisição</p>
+<p>www - Subdominio</p>
+<p>impacta.com.br - Dominio</p>
+<p>eventos - path</p>
+<p>default.php - recurso requisitado</p>
+
+
+<p><strong>3) Quais outros protocolos de comunicação para troca de mensagens via internet existem? 
+	Pesquise e cite 3 exemplos, descrevendo sua função e aplicação.</strong></p>
+<ul>
+	<li>
+		<p>
+			PROTOCOLO 1:<br>
+			SMTP - É o protocolo padrão que permite transferir o e-mail de um servidor para outro, em conexão ponto a ponto. é um protocolo <br>
+			online onde o e-mail é enviado diretamente para o servidor de e-mail do destinatário.
+			
+		</p>
+	</li>
+	<li>
+		<p>
+			PROTOCOLO 2:<br>
+			POP - É um protocolo que permite recuperar o seu e-mail num servidor distante. Permite consultar os e-mails recebidos offline.<br>
+			Existem duas versões principais deste protocolo, o POP2 e o POP3. Funiona com comandos de texto enviados ao servidor.
+		</p>
+	</li>
+	<li>
+		<p>
+			PROTOCOLO 3: <br>
+			IMAP - É um protocolo para envio de email, permite gerenciar vários acessos simultâneos, administrar <br>
+			várias caixas de e-mail e organizar as mensagens de acordo com alguns critérios.
+			Funiona com comandos de texto enviados ao servidor.
+			Possui caixa de e-mails sincronizada entre o cliente e o servidor.
+		</p>
+
+	</li>
+</ul>
+
+<p><strong>4) Explore os sites de hospedagem do  
+	
+	(<a href="http://www.uolhost.uol.com.br/" target="_blank">http://www.uolhost.uol.com.br/</a>) 
+	e da LOCAWEB 
+
+	(<a href="https://www.locaweb.com.br" target="_blank">https://www.locaweb.com.br</a>), 
+	veja os serviços que eles oferecem. Qual desses serviços (em cada site) seria mais adequado para 
+	o seu site de desenvolvedor (páginas estáticas) e para a sua aplicação web?</strong></p>
+
+<p>RESPOSTA:</p>
+<p>
+	Para sites estaticos o mais adequado seria o Locaweb por ter espaço ilimitado para sites,
+	ou seja ele oferece espaço necessário para o seu site.
+	<br>
+	Para aplicações web a escolha mais adequada seria a uolhost, por informar a quantidade de memoria ram disponivel no plano de hospedagem,
+	algo de grande importancia em aplicações.
+<p>
+
+<p><strong>5) Pequisem sobre as limitações do HTTP 1.1 e como o HTTP2 vence essa limitação, 
+	cite 2 dessas limitações e suas respostas no HTTP2</strong></p>
+
+<p>RESPOSTA:</p>
+<p>Insegurança onde no HTTP 1.1  nem toda comunicação é feita utilizando SSL. Ja o HTTP 2 possui SSL por padrão, ou seja,<BR> 
+todo servidor que for trabalhar com HTTP/2.0 deverá obrigatoriamente ser HTTPS em qualquer estado de comunicação, assim,melhorando a segurança.</p>
+</p>
+<p>
+Performance no Http 1.1 possue os cabeçalhos da request e também o corpo da response são poluídos e não 
+recebem otimizações em momento algum, o que aumenta o trabalho de processamento e o volume de trafégo.
+Já no HTTP 2 o trafego é comprimido com o GZIP por padrão, visando otimização de trafégo.
+</p>
