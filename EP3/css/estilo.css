@@ -1,0 +1,109 @@
+.quadro2{
+    border:1px solid black;
+    width:700px;
+}
+
+.titulo{
+    border-bottom:1px solid blue;
+    text-align: center;
+    margin:auto;
+    font-family: sans-serif;
+}
+
+.curso_graduacao{
+    text-align: left;
+    color:cornflowerblue;
+    font-family: sans-serif;
+}
+
+.curso-pos{
+    text-align: left;
+    color:green;
+    font-weight:bold;
+    font-family: sans-serif;
+}
+
+.mestre{
+    text-align: left;
+    color:yellow;
+    font-weight: italic;
+    font-family: sans-serif;
+}
+
+.doc{
+    color:red;
+    text-decoration: underline;
+    font-family: sans-serif;
+}
+
+.par{
+    color:thistle
+}
+
+.aula{
+    width:190px;
+    
+}
+
+.p1{
+    text-align: center;
+}
+
+.p2{
+    text-align: right;
+}
+
+.p3{
+    text-align: center;
+}
+
+.p4{
+    text-align: right;
+}
+
+
+.quadro, Font{
+    font-family: verdana;
+    font-size:12px;
+    text-align: center;
+    color:red;
+    
+}
+
+.quadro{
+    border:1px solid black;
+    width: 300px;
+    margin: auto;
+}
+
+.img_align{
+    position:relative;
+    width: 300px;
+}
+
+.text_align{
+    position: relative;
+    width: 196px;
+    margin-top:-165px;
+    float:right;
+    
+}
+
+.grid{
+    width: 500px;
+    
+}
+
+.aprovado{
+    color: seagreen;
+    text-align: center;
+}
+.reprovado{
+    color:red;
+    text-align: center;
+}
+.tr1{
+    background-color: #CDC9C9;
+
+}
+
