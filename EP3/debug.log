@@ -1,0 +1,4 @@
+[0922/134030.972:ERROR:file_io_win.cc(246)] SetEndOfFile: A operação solicitada não pode ser executada em um arquivo com uma seção mapeada pelo usuário aberta. (0x4C8)
+[0922/134030.974:ERROR:file_io_win.cc(246)] SetEndOfFile: A operação solicitada não pode ser executada em um arquivo com uma seção mapeada pelo usuário aberta. (0x4C8)
+[0922/134030.975:ERROR:file_io_win.cc(246)] SetEndOfFile: A operação solicitada não pode ser executada em um arquivo com uma seção mapeada pelo usuário aberta. (0x4C8)
+[0922/134030.975:ERROR:file_io_win.cc(246)] SetEndOfFile: A operação solicitada não pode ser executada em um arquivo com uma seção mapeada pelo usuário aberta. (0x4C8)
